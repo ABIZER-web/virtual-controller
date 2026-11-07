@@ -1,0 +1,56 @@
+{
+  "setup_completed": true,
+  "camera": {
+    "device_index": 0,
+    "width": 640,
+    "height": 480,
+    "fps": 30,
+    "mirror": true
+  },
+  "hand_tracking": {
+    "min_detection_confidence": 0.65,
+    "min_tracking_confidence": 0.65
+  },
+  "hand_assignment": {
+    "accelerator_hand": "Right",
+    "brake_hand": "Left"
+  },
+  "steering": {
+    "neutral_angle": -9.000981642452633,
+    "calibrated_left_max": -45.0,
+    "calibrated_right_max": 45.0,
+    "max_rotation_degrees": 180.0,
+    "sensitivity": 50.0,
+    "deadzone": 2.0,
+    "smoothing": 0.43,
+    "centering_enabled": true,
+    "centering_speed": 0.15,
+    "response_curve": "linear"
+  },
+  "pedals": {
+    "accelerator": {
+      "relaxed_val": 1.8139654704757149,
+      "pressed_val": 0.12,
+      "deadzone": 5.0,
+      "sensitivity": 50.0,
+      "smoothing": 0.3,
+      "response_curve": "linear"
+    },
+    "brake": {
+      "relaxed_val": 1.1881310180510438,
+      "pressed_val": 1.172946591341755,
+      "deadzone": 5.0,
+      "sensitivity": 50.0,
+      "smoothing": 0.3,
+      "response_curve": "linear"
+    }
+  },
+  "safety": {
+    "grace_period_ms": 400,
+    "emergency_release": true
+  },
+  "controller": {
+    "enabled": true,
+    "type": "xbox360"
+  }
+}
