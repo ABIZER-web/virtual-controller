@@ -113,6 +113,8 @@ sequenceDiagram
 
 ```
 virtual-controller/
+├── run.bat                     # ⚡ One-click double-click launcher for Windows
+├── run_silent.vbs              # 🤫 Completely silent background launcher (no cmd window)
 ├── main.py                     # Application entry point & thread lifecycle
 ├── requirements.txt            # Python dependencies
 ├── config.json                 # Persistent configuration settings
@@ -193,10 +195,21 @@ cd virtual-controller
 pip install -r requirements.txt
 ```
 
-### 3. Run the Application
-```powershell
-python main.py
-```
+### 3. How to Run (One-Click Launch)
+
+You **DO NOT** need to open any terminal, command prompt, or code editor:
+
+- **Option A (Recommended — Double-Click)**:  
+  Simply double-click **`run.bat`** in the project folder.  
+  It will automatically verify your environment and launch Virtual Drive instantly!
+  
+- **Option B (Silent Launch — No Console Window)**:  
+  Double-click **`run_silent.vbs`** to open the simulator completely silently in the background with zero terminal popup.
+
+- **Option C (Terminal / Developer Mode)**:  
+  ```powershell
+  python main.py
+  ```
 
 ---
 
